@@ -3,19 +3,69 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* BDRX theme colors */
+  --primary-dark: #001523;  /* Updated darker background */
+  --primary-gold: #84743c;  /* Updated BDRX gold accent */
+  --text-light: #ffffff;
+  --text-gray: #9ca3af;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-light);
+  background: var(--primary-dark);
+  min-height: 100vh;
+}
+
+/* Custom styles for form inputs */
+input, textarea {
+  @apply border border-gray-700 bg-gray-800/50 focus:ring-primary-gold focus:border-primary-gold text-white rounded-md;
+}
+
+/* Custom styles for buttons */
+button {
+  @apply transition duration-150 ease-in-out hover:bg-primary-gold/90;
+}
+
+/* Custom styles for links */
+a {
+  @apply transition duration-150 ease-in-out hover:text-primary-gold;
+}
+
+/* Custom navigation styles */
+.nav-link {
+  @apply text-gray-300 hover:text-primary-gold transition-colors duration-200;
+}
+
+.nav-link.active {
+  @apply text-primary-gold;
+}
+
+/* Custom container for page content */
+.page-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16;
+}
+
+/* Social media links */
+.social-link {
+  @apply text-gray-400 hover:text-primary-gold transition-colors duration-200;
+}
+
+/* Custom card styles */
+.custom-card {
+  @apply bg-gray-900/50 border border-gray-800 rounded-lg p-6 hover:border-primary-gold/50 transition-all duration-300;
+}
+
+/* Footer styles */
+.footer {
+  @apply bg-gray-900/50 border-t border-gray-800;
+}
+
+/* Section headers */
+.section-header {
+  @apply text-3xl font-bold mb-8 text-primary-gold;
+}
+
+/* Form submit button */
+.submit-button {
+  @apply bg-primary-gold text-primary-dark px-6 py-2 rounded-md hover:bg-primary-gold/90 transition-colors duration-200;
 }
