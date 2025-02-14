@@ -1,72 +1,84 @@
+"use client";
+
 import Image from "next/image";
 
 const companies = [
   {
-    name: "Deloitte",
-    logo: "/logos/deloitte.svg",
+    name: "Company 1",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel1.webp",
   },
   {
-    name: "PwC",
-    logo: "/logos/pwc.svg",
+    name: "Company 2",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel2.webp",
   },
   {
-    name: "KPMG",
-    logo: "/logos/kpmg.svg",
+    name: "Company 3",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel3.webp",
   },
   {
-    name: "EY",
-    logo: "/logos/ey.svg",
+    name: "Company 4",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel4.webp",
   },
   {
-    name: "Goldman Sachs",
-    logo: "/logos/goldman.svg",
+    name: "Company 5",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel5.webp",
   },
   {
-    name: "Morgan Stanley",
-    logo: "/logos/morgan-stanley.svg",
+    name: "Company 6",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel6.webp",
   },
   {
-    name: "JP Morgan",
-    logo: "/logos/jpmorgan.svg",
+    name: "Company 7",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel7.webp",
   },
   {
-    name: "Bank of America",
-    logo: "/logos/bofa.svg",
+    name: "Company 8",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel8.webp",
+  },
+  {
+    name: "Company 9",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel9.webp",
+  },
+  {
+    name: "Company 10",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel10.webp",
+  },
+  {
+    name: "Company 11",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel11.webp",
+  },
+  {
+    name: "Company 12",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel12.webp",
   },
 ];
 
 export function CompanyBanner() {
   return (
-    <div className="w-full overflow-hidden py-12 bg-gray-50">
-      <div className="flex animate-scroll">
-        {[...companies, ...companies].map((company, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center justify-center mx-16 transition-all duration-300 transform"
-            style={
-              {
-                filter: "blur(var(--blur))",
-                opacity: "var(--opacity)",
-                transform: "scale(var(--scale))",
-                ["--blur" as string]: "0px",
-                ["--opacity" as string]: "1",
-                ["--scale" as string]: "1",
-              } as React.CSSProperties
-            }
-          >
-            <div className="relative w-32 h-16 flex items-center justify-center">
-              <Image
-                src={company.logo}
-                alt={`${company.name} logo`}
-                fill
-                className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-                style={{
-                  filter: "drop-shadow(0 0 8px rgba(0, 0, 0, 0.1))",
-                }}
-              />
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-2xl font-bold text-center text-primary-gold mb-8">
+        Our members have received offers from
+      </h2>
+      <div className="w-full overflow-hidden py-12">
+        <div className="flex animate-scroll">
+          {[...companies, ...companies].map((company, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center transition-all duration-300 transform"
+            >
+              <div className="relative w-40 h-20">
+                <Image
+                  src={company.logo}
+                  alt={`${company.name} logo`}
+                  fill
+                  className="object-contain hover:opacity-100 transition-all duration-300"
+                  sizes="160px"
+                  priority={index < 4}
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <style jsx global>{`
@@ -80,26 +92,13 @@ export function CompanyBanner() {
         }
 
         .animate-scroll {
-          animation: scroll 10s linear infinite;
+          animation: scroll 20s linear infinite;
         }
 
         @media (max-width: 768px) {
           .animate-scroll {
-            animation: scroll 8s linear infinite;
+            animation: scroll 15s linear infinite;
           }
-        }
-
-        .animate-scroll > div:nth-child(n) {
-          --blur: 4px;
-          --opacity: 0.5;
-          --scale: 0.9;
-        }
-
-        .animate-scroll > div:nth-child(3n + 1),
-        .animate-scroll > div:nth-child(3n + 2) {
-          --blur: 0px;
-          --opacity: 1;
-          --scale: 1;
         }
       `}</style>
     </div>

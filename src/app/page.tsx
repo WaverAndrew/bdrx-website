@@ -1,6 +1,7 @@
 import React from "react";
 import Activities from "@/components/Activities";
 import Link from "next/link";
+import { CompanyBanner } from "@/components/carousel";
 
 export default function HomePage() {
   return (
@@ -23,18 +24,18 @@ export default function HomePage() {
             >
               Join Us
             </Link>
-            <Link
-              href="/about"
+            <a
+              href="#mission"
               className="inline-block border border-primary-gold text-primary-gold px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/10 transition-colors duration-200"
             >
               Learn More
-            </Link>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Mission Section */}
-      <section className="py-20 bg-gray-900/30">
+      <section id="mission" className="py-20 bg-gray-900/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-primary-gold mb-6">
@@ -42,13 +43,17 @@ export default function HomePage() {
             </h2>
             <p className="text-lg text-gray-300 leading-relaxed">
               Our mission at BDRX is to provide a forum for students interested
-              in distressed assets, credit, and restructuring by giving a
-              platform to exchange ideas, develop crucial career skills, and
-              network with investment professionals through external events.
+              in distressed assets, credit, and restructuring. We give our
+              members a platform to exchange ideas, develop crucial career
+              skills, and network with investment professionals through external
+              events.
             </p>
           </div>
         </div>
       </section>
+
+      {/* Company Banner */}
+      <CompanyBanner />
 
       {/* Activities Section */}
       <Activities />

@@ -78,15 +78,15 @@ const JoinPage = () => {
             about distressed investments and restructuring.
           </p>
           <a
-            href="https://bdrx.eu"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeFDI09mIE3_b-py_5IyUHO8yklaz1YKMn1dAldVgU0Wtftbg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-gold text-primary-dark px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/90 transition-colors duration-200"
           >
             Apply Now
           </a>
-          <p className="text-gray-400 mt-4">
-            Current application window closes on [Insert Date]
+          <p className="text-gray-400 mt-4 font-bold">
+            Current application window closes on 28/02/2025
           </p>
         </section>
 
@@ -129,7 +129,7 @@ const JoinPage = () => {
               this exciting field.
             </p>
             <a
-              href="https://bdrx.eu"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeFDI09mIE3_b-py_5IyUHO8yklaz1YKMn1dAldVgU0Wtftbg/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary-gold text-primary-dark px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/90 transition-colors duration-200"

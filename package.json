@@ -13,7 +13,9 @@
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
 	},
 	"dependencies": {
+		"@types/nodemailer": "^6.4.17",
 		"next": "15.1.6",
+		"nodemailer": "^6.10.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0"
 	},

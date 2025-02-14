@@ -5,8 +5,7 @@ export default function Footer() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/team", label: "Team" },
-    { href: "/events", label: "Events" },
-    { href: "/articles", label: "Articles" },
+
     { href: "/join", label: "Join Us" },
     { href: "/contact", label: "Contact" },
   ];
@@ -28,7 +27,7 @@ export default function Footer() {
             </Link>
             <div className="flex space-x-4">
               <a
-                href="https://www.linkedin.com/company/bdrx"
+                href="https://www.linkedin.com/company/bdrx/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"

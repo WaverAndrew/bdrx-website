@@ -16,6 +16,10 @@ const config: Config = {
         'dark': '#001523',
         'dark-lighter': '#0a2533',
       },
+      fontFamily: {
+        'heading': ['Cormorant Garamond', 'serif'],
+        'sans': ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+      },
     },
   },
   plugins: [],
