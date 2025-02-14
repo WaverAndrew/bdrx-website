@@ -51,6 +51,14 @@ const companies = [
     name: "Company 12",
     logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel12.webp",
   },
+  {
+    name: "Company 13",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel13.webp",
+  },
+  {
+    name: "Company 14",
+    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel14.webp",
+  },
 ];
 
 export function CompanyBanner() {
