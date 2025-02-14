@@ -69,10 +69,10 @@ export function CompanyBanner() {
       </h2>
       <div className="w-full overflow-hidden py-12">
         <div className="flex animate-scroll">
-          {[...companies, ...companies].map((company, index) => (
+          {[...companies, ...companies, ...companies].map((company, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center transition-all duration-300 transform"
+              className="flex flex-col items-center justify-center min-w-[160px]"
             >
               <div className="relative w-40 h-20">
                 <Image
@@ -95,18 +95,24 @@ export function CompanyBanner() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translateX(-33.33%);
           }
         }
 
         .animate-scroll {
-          animation: scroll 20s linear infinite;
+          animation: scroll 15s linear infinite;
+          width: fit-content;
+          display: flex;
         }
 
         @media (max-width: 768px) {
           .animate-scroll {
-            animation: scroll 15s linear infinite;
+            animation: scroll 10s linear infinite;
           }
+        }
+
+        .animate-scroll:hover {
+          animation-play-state: paused;
         }
       `}</style>
     </div>
