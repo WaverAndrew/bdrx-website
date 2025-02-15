@@ -39,10 +39,7 @@ const companies = [
     name: "Company 9",
     logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel9.webp",
   },
-  {
-    name: "Company 10",
-    logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel10.webp",
-  },
+
   {
     name: "Company 11",
     logo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/carousel11.webp",
@@ -100,7 +97,7 @@ export function CompanyBanner() {
         }
 
         .animate-scroll {
-          animation: scroll 15s linear infinite;
+          animation: scroll 22s linear infinite;
           width: fit-content;
           display: flex;
         }
