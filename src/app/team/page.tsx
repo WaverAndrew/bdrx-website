@@ -135,6 +135,21 @@ const TeamPage = () => {
       role: "Associate",
       linkedin: "https://www.linkedin.com/in/emilio-cornejo-308111251/",
     },
+    {
+      name: "Tommaso Pietromarchi",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/tommasopietromarchi/",
+    },
+    {
+      name: "Marco Cielo",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/marcocielo/",
+    },
+    {
+      name: "Pablo Villegas",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/pabloospinavillegas/",
+    },
   ];
 
   return (
