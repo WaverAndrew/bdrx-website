@@ -47,7 +47,7 @@ const TeamPage = () => {
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000005.webp",
     },
     {
-      name: "Francesca Da Fazio",
+      name: "Francesca De Fazio",
       role: "Head of Communications",
       linkedin: "https://www.linkedin.com/in/francesca-de-fazio-a2b17b34b/",
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000006.webp",
