@@ -3,6 +3,26 @@ import React from "react";
 const Activities = () => {
   const activities = [
     {
+      title: "Training Sessions",
+      description:
+        "Technical training sessions led by division heads to build interview skills and market knowledge. Key insights shared via our social media channels.",
+      icon: (
+        <svg
+          className="w-12 h-12"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+          />
+        </svg>
+      ),
+    },
+    {
       title: "Speaker Events",
       description:
         "Engaging sessions with industry experts sharing insights on restructuring and distressed investments",
@@ -45,7 +65,7 @@ const Activities = () => {
     {
       title: "Networking Events",
       description:
-        "Regular opportunities to connect with professionals and peers in the industry",
+        "Regular opportunities to connect with professionals and peers in the industry, including corporate firms and industry leaders",
       icon: (
         <svg
           className="w-12 h-12"
@@ -91,7 +111,7 @@ const Activities = () => {
           Our Activities
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
           {activities.map((activity, index) => (
             <div
               key={activity.title}
@@ -109,7 +129,7 @@ const Activities = () => {
 
               {/* Connector lines for desktop view */}
               {index < activities.length - 1 && (
-                <div className="hidden lg:block absolute right-0 top-1/2 w-8 h-0.5 bg-primary-gold/30 transform translate-x-full" />
+                <div className="hidden xl:block absolute right-0 top-1/2 w-8 h-0.5 bg-primary-gold/30 transform translate-x-full" />
               )}
             </div>
           ))}

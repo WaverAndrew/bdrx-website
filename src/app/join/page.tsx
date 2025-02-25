@@ -23,26 +23,7 @@ const JoinPage = () => {
         </svg>
       ),
     },
-    {
-      title: "HR Interview",
-      description:
-        "A 15-minute conversation to understand your motivation, career aspirations, and cultural fit. This is your opportunity to demonstrate your passion for the industry and alignment with BDRX's mission.",
-      icon: (
-        <svg
-          className="w-12 h-12"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
-          />
-        </svg>
-      ),
-    },
+
     {
       title: "Technical Interview",
       description:
@@ -95,7 +76,7 @@ const JoinPage = () => {
           <h2 className="text-3xl font-bold text-center text-primary-gold mb-12">
             Recruiting Process
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {applicationSteps.map((step, index) => (
               <div key={step.title} className="custom-card relative">
                 <div className="flex flex-col items-center text-center space-y-4">
