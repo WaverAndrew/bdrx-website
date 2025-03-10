@@ -17,6 +17,14 @@ const TeamPage = () => {
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000008.webp",
     },
     {
+      name: "Alberto Cocirio",
+      role: "Honorary President",
+      linkedin: "https://www.linkedin.com/in/alberto-cocirio/",
+      photo:
+        "https://media.licdn.com/dms/image/v2/D4E03AQEiNTH-iOVf9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707053125323?e=1747267200&v=beta&t=kPa5tPNrWi1MCcNpt8so7RCpGwVXnYpxrkXWMAT3eiE",
+    },
+
+    {
       name: "Kabir Wali",
       role: "Head of Corporate Finance",
       linkedin: "https://www.linkedin.com/in/kabir-wali/",
