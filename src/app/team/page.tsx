@@ -18,7 +18,7 @@ const TeamPage = () => {
     },
     {
       name: "Alberto Cocirio",
-      role: "Honorary President",
+      role: "COC (Chieff of Crackheads)",
       linkedin: "https://www.linkedin.com/in/alberto-cocirio/",
       photo:
         "https://media.licdn.com/dms/image/v2/D4E03AQEiNTH-iOVf9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707053125323?e=1747267200&v=beta&t=kPa5tPNrWi1MCcNpt8so7RCpGwVXnYpxrkXWMAT3eiE",
