@@ -7,7 +7,6 @@ const TeamPage = () => {
       name: "Edward Ramirez",
       role: "President",
       linkedin: "https://www.linkedin.com/in/edwardramirezuk/",
-      // Add photo path when available
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000007.webp",
     },
     {
@@ -73,12 +72,7 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/matteo-polacci-673b29258/",
       division: "Corporate Finance",
     },
-    {
-      name: "Jack Thompson",
-      role: "Credit Investments Senior Associate",
-      linkedin: "https://www.linkedin.com/in/jack-thompson-63253a25b/",
-      division: "Credit Investments",
-    },
+
     {
       name: "Edoardo Campagna",
       role: "Special Situations & PE Senior Associate",
@@ -97,12 +91,7 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/giacomo-di-benedetto-2924a3294/",
       division: "Coverage",
     },
-    {
-      name: "Sava Neskovic",
-      role: "Coverage Senior Associate",
-      linkedin: "https://www.linkedin.com/in/sava-neskovic/",
-      division: "Coverage",
-    },
+
     {
       name: "Maria Eleni Papazoglou",
       role: "Associate",
