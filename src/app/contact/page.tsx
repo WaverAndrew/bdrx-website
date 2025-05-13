@@ -35,7 +35,7 @@ const ContactPage = () => {
             </h2>
             <div className="flex justify-center space-x-6">
               <a
-                href="https://www.linkedin.com/company/your-company"
+                href="https://www.linkedin.com/company/bdrx/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary-gold transition-colors duration-200"
@@ -51,7 +51,7 @@ const ContactPage = () => {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/your-handle"
+                href="https://www.instagram.com/bdrx.eu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-primary-gold transition-colors duration-200"
