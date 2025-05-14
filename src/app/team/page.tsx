@@ -146,19 +146,7 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/tommasopietromarchi/",
       division: "Corporate Finance",
     },
-    {
-      name: "Marco Cielo",
-      role: "Associate",
-      linkedin: "https://www.linkedin.com/in/marcocielo/",
-      division: "Coverage",
-    },
-    {
-      name: "Pablo Villegas",
-      role: "Associate",
-      linkedin: "https://www.linkedin.com/in/pabloospinavillegas/",
-      division: "Coverage",
-    },
-    // New members
+
     {
       name: "Edoardo Novali",
       role: "Associate",
