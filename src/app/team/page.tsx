@@ -146,6 +146,12 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/tommasopietromarchi/",
       division: "Corporate Finance",
     },
+    {
+      name: "Pietro Busdraghi",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/pietro-busdraghi-71b484294/",
+      division: "Coverage",
+    },
 
     {
       name: "Edoardo Novali",
