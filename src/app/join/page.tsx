@@ -59,7 +59,7 @@ const JoinPage = () => {
             about distressed investments and restructuring.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeFDI09mIE3_b-py_5IyUHO8yklaz1YKMn1dAldVgU0Wtftbg/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeR6X_k60EIZzNIN_OyCUlSlqfWV1-UvZio0gNRSxb2CH2vfA/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-gold text-primary-dark px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/90 transition-colors duration-200"
@@ -110,7 +110,7 @@ const JoinPage = () => {
               this exciting field.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeFDI09mIE3_b-py_5IyUHO8yklaz1YKMn1dAldVgU0Wtftbg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeR6X_k60EIZzNIN_OyCUlSlqfWV1-UvZio0gNRSxb2CH2vfA/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-primary-gold text-primary-dark px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/90 transition-colors duration-200"
