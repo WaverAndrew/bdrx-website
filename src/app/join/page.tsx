@@ -67,7 +67,7 @@ const JoinPage = () => {
             Apply Now
           </a>
           <p className="text-gray-400 mt-4 font-bold">
-            Current application window closes on 28/02/2025
+            Current application window closes on 25/09/2025
           </p>
         </section>
 
