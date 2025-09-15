@@ -74,12 +74,6 @@ const TeamPage = () => {
     },
 
     {
-      name: "Edoardo Campagna",
-      role: "Special Situations & PE Senior Associate",
-      linkedin: "https://www.linkedin.com/in/edoardo-campagna-640a602a5/",
-      division: "Special Situations & PE",
-    },
-    {
       name: "Louise Pradayrol",
       role: "Operations Senior Associate",
       linkedin: "https://www.linkedin.com/in/louise-pradayrol-554a571b9/",
@@ -225,12 +219,7 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/jacopo-di-giannatale-40754328a/",
       division: "Credit Investments",
     },
-    {
-      name: "Konstantin Bodenschatz",
-      role: "Associate",
-      linkedin: "https://www.linkedin.com/in/konstantin-bodenschatz-b0aa7221a/",
-      division: "Corporate Finance",
-    },
+
     {
       name: "Victor Blanc",
       role: "Associate",
