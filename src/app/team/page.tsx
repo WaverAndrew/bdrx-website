@@ -16,10 +16,10 @@ const TeamPage = () => {
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000008.webp",
     },
     {
-      name: "Kabir Wali",
+      name: "Konstantin Bodenschatz",
       role: "Head of Corporate Finance",
-      linkedin: "https://www.linkedin.com/in/kabir-wali/",
-      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000001.webp",
+      linkedin: "https://www.linkedin.com/in/konstantin-bodenschatz/",
+      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/0000010.webp",
     },
     {
       name: "Emilie Thomas",
@@ -28,10 +28,10 @@ const TeamPage = () => {
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000004.webp",
     },
     {
-      name: "Damiano Quinque",
+      name: "Edoardo Campagna",
       role: "Head of Special Situations & PE",
-      linkedin: "https://www.linkedin.com/in/dquinque/",
-      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000003.webp",
+      linkedin: "https://www.linkedin.com/in/edoardo-campagna-640a602a5/",
+      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/00009.webp",
     },
     {
       name: "Marit Huenlein",
