@@ -10,10 +10,10 @@ const TeamPage = () => {
       photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000007.webp",
     },
     {
-      name: "Nikos Lioudakis",
+      name: "Damiano Quinque",
       role: "Vice President",
-      linkedin: "https://www.linkedin.com/in/nikos-lioudakis-0a8a63236/",
-      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000008.webp",
+      linkedin: "https://www.linkedin.com/in/dquinque/",
+      photo: "https://pub-9fbf6f8305744d88a6e3f429914479bc.r2.dev/000011.webp",
     },
     {
       name: "Konstantin Bodenschatz",
