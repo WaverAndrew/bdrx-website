@@ -250,6 +250,138 @@ const TeamPage = () => {
       linkedin: "https://www.linkedin.com/in/alberto-cocirio/",
       division: "Corporate Finance",
     },
+    {
+      name: "Steven Iallonardo",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/steven-iallonardo",
+      division: "Credit Investments",
+    },
+    {
+      name: "Filippo Spalletta",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/filippo-spalletta-460506269",
+      division: "Credit Investments",
+    },
+    {
+      name: "Maximilian Lenhard",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/maximilianlenhard/",
+      division: "Credit Investments",
+    },
+    {
+      name: "Thomas Dent",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/thomas-dent-173437243",
+      division: "Credit Investments",
+    },
+    {
+      name: "Ettore Cerreti",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/ettore-cerreti-227911145/",
+      division: "Credit Investments",
+    },
+    {
+      name: "Ece Irmak Edremit",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/ece-irmak-edremit-17b11a272",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Marc George",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/marc-arthur-george/",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Loyd Hegarty",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/loyd-hegarty-a87887228",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Ayush Jain",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/ayushjainnn/",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Ignat Karadzhov",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/ignat-karadzhov/",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Austeja Simaityte",
+      role: "Associate",
+      linkedin:
+        "https://www.linkedin.com/in/aust%C4%97ja-simaityt%C4%97-667727235/",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Adrian Tsonev",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/adrian-tsonev-9b3221276/",
+      division: "Corporate Finance",
+    },
+    {
+      name: "Emanuele Bozzo",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/emanuelebozzo",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Giancarlo Colpani",
+      role: "Associate",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Francesca Alessandra Fusenig",
+      role: "Associate",
+      linkedin:
+        "https://www.linkedin.com/in/francesca-alessandra-fusenig-597294293",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Jeffery Gao",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/jeffreyhgao/",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Gregorio Mazzoni",
+      role: "Associate",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Luca Rocci",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/luca-rocci",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Krishna Rastogi",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/krishnakapilrastogi",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Leo Shasha",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/leo-shasha-696608290/",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Deniz Sengezener",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/deniz-sengezener",
+      division: "Special Situations & PE",
+    },
+    {
+      name: "Giuseppe Paganelli",
+      role: "Associate",
+      linkedin: "https://www.linkedin.com/in/giuseppe-paganelli/",
+      division: "Special Situations & PE",
+    },
   ];
 
   // Group members by division
