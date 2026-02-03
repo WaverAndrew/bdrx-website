@@ -59,7 +59,7 @@ const JoinPage = () => {
             about distressed investments and restructuring.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeR6X_k60EIZzNIN_OyCUlSlqfWV1-UvZio0gNRSxb2CH2vfA/viewform?usp=dialog"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfrEhSrj5NvGtcqOofpKGyALDzGTtFttg8yr7A4TSYtG5qtkA/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary-gold text-primary-dark px-8 py-3 rounded-md font-semibold hover:bg-primary-gold/90 transition-colors duration-200"
@@ -67,7 +67,7 @@ const JoinPage = () => {
             Apply Now
           </a>
           <p className="text-gray-400 mt-4 font-bold">
-            Current application window closes on 25/09/2025
+            Current application window closes on 15/02/2026
           </p>
         </section>
 
